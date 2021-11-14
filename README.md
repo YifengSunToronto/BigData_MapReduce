@@ -6,7 +6,7 @@ Problems that can be solved by MapReduce must lend themselves to parallelization
 
 It is :
 Distributed - Distributed Map and Reduce nodes can work together to Chop the input data and Merge them back
-Parallel: accpet input in-parallel and each batch of data is processed independently
+Parallel: accpet input in-parallel and each portion of input data is processed independently
 Fault-Tolerant - can re-schedule failed
 Scalable: More resource = more process ability
 
