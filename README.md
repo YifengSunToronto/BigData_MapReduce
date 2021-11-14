@@ -11,6 +11,10 @@ Fault-Tolerant - can re-schedule failed
 Scalable: More resource = more process ability
 
 
+Work with HDFS - HDFS has good performance for frequent write
+
+![image](https://user-images.githubusercontent.com/32372822/141702107-213d9abc-1b29-4ef5-9fe5-12ee88d07833.png)
+
 There are 2 main procedes: 1. Map and 2.Reduce
 ![image](https://user-images.githubusercontent.com/32372822/141699322-8a419021-3e24-4aa6-9891-8019608c44d4.png)
 
@@ -20,11 +24,6 @@ There are 2 main procedes: 1. Map and 2.Reduce
 4. Shuffle: For each output of Map node, re-orgnize them such that the same key paris are closed to each others
 5. Reduce: Merge output of Shuffle, which is the orgnized intermidiate key-valu paris, to put the same key pairs together.
 6. Output: Key-val pairs
-
-
-Work with HDFS - HDFS has good performance for frequent write
-
-![image](https://user-images.githubusercontent.com/32372822/141702107-213d9abc-1b29-4ef5-9fe5-12ee88d07833.png)
 
 
 Classic Demostration
