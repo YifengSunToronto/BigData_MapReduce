@@ -21,9 +21,11 @@ There are 2 main procedes: 1. Map and 2.Reduce
 1. Input: Batches of data that can be processed offline and in-parallel
 2. Map: Need a map function -> map key-val pair to generate a set of intermidiate key-val paris. 
 3. This is like chopping the input data to small pecies so it can be shuffled and merged.
-4. Shuffle: For each output of Map node, re-orgnize them such that the same key paris are closed to each others
-5. Reduce: Merge output of Shuffle, which is the orgnized intermidiate key-valu paris, to put the same key pairs together.
-6. Output: Key-val pairs
+4. Each Map node is working on a data split independently.
+5. Shuffle: For each output of Map node, re-orgnize them such that the same key paris are closed to each others
+6. Reduce: Merge output of Shuffle, which is the orgnized intermidiate key-valu paris, to put the same key pairs together.
+7. Each Reduce node is working on a range of key-value pairs independently.
+8. Output: Key-val pairs
 
 
 Classic Demostration
