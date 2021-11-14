@@ -17,6 +17,7 @@ Work with HDFS - HDFS has good performance for frequent write
 
 There are 2 main procedes: 1. Map and 2.Reduce
 ![image](https://user-images.githubusercontent.com/32372822/141699322-8a419021-3e24-4aa6-9891-8019608c44d4.png)
+![image](https://user-images.githubusercontent.com/32372822/141702719-fbd452f6-c1aa-4e8f-b046-2a99fb34455b.png)
 
 1. Input: Batches of data that can be processed offline and in-parallel
 2. Map: Need a map function -> map key-val pair to generate a set of intermidiate key-val paris. 
