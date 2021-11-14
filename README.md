@@ -1,5 +1,6 @@
 # BigData_MapReduce
 MapReduce is good 'Divide and Conquor' solution for Big-Data Batch Processing
+Problems that can be solved by MapReduce must lend themselves to parallelization, i.e., the various parts can be solved independently to produce intermediate results that are later merged to arrive at a final solution.
 It is :
 Distributed - Distributed Map and Reduce nodes  
 Parallel: accpet input in-parallel and each batch of data is processed independently
