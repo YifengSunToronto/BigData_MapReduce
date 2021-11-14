@@ -22,5 +22,10 @@ There are 2 main procedes: 1. Map and 2.Reduce
 6. Output: Key-val pairs
 
 
+Work with HDFS - HDFS has good performance for frequent write
+
+![image](https://user-images.githubusercontent.com/32372822/141702107-213d9abc-1b29-4ef5-9fe5-12ee88d07833.png)
+
+
 Classic Demostration
 - WordCount / ObjectFrequencyCount
