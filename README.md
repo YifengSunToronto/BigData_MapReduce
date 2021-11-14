@@ -5,7 +5,7 @@ When should we use MapReduce?
 Problems that can be solved by MapReduce must lend themselves to parallelization, i.e., the various parts can be solved independently to produce intermediate results that are later merged to arrive at a final solution.
 
 It is :
-Distributed - Distributed Map and Reduce nodes  
+Distributed - Distributed Map and Reduce nodes can work together to Chop the input data and Merge them back
 Parallel: accpet input in-parallel and each batch of data is processed independently
 Fault-Tolerant - can re-schedule failed
 Scalable: More resource = more process ability
