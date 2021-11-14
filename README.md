@@ -29,5 +29,8 @@ There are 2 main procedes: 1. Map and 2.Reduce
 8. Output: Key-val pairs
 
 
+![image](https://user-images.githubusercontent.com/32372822/141702903-430d10e2-9e75-4be8-a66b-810bca7a07c1.png)
+
+
 Classic Demostration
 - WordCount / ObjectFrequencyCount
