@@ -20,3 +20,7 @@ There are 2 main procedes: 1. Map and 2.Reduce
 4. Shuffle: For each output of Map node, re-orgnize them such that the same key paris are grouped together
 5. Reduce: Merge output of Shuffle, which is the orgnized intermidiate key-valu paris, to put the same key pairs together.
 6. Output: Key-val pairs
+
+
+Classic Demostration
+- WordCount
