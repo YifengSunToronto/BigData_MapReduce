@@ -23,4 +23,4 @@ There are 2 main procedes: 1. Map and 2.Reduce
 
 
 Classic Demostration
-- WordCount
+- WordCount / ObjectFrequencyCount
